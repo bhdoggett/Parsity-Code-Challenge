@@ -6,7 +6,6 @@ const findSum = function (array) {
     return sum;
 };
 
-
 const findFrequency = function (array) {
     let letterCount = {}
     let result = {}
@@ -31,8 +30,6 @@ const findFrequency = function (array) {
     return result;
 }
 
-
-
 const isPalindrome = function (str) {
     str = str.toLowerCase(str);
     let result = true;
@@ -47,7 +44,6 @@ const isPalindrome = function (str) {
     return result;
 };
 
-
 const largestPair = function (array) {
     let productArray = []
     for (let i = 0; i < array.length; i++) {
@@ -59,7 +55,6 @@ const largestPair = function (array) {
     return Math.max(...productArray);
 }
 
-
 const removeParenth = function (str) {
     let stringArray = []
 
@@ -70,8 +65,6 @@ const removeParenth = function (str) {
     };
     return stringArray.join('');
 }
-
-
 
 const scoreScrabble = function (str) {
     let letters = str.split('')
